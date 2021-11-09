@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+ul li {
+  width: calc(20% - 20px);
+  list-style: none;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+ul li .card {
+  background-color: dodgerblue;
+  padding: 0.9375rem 1.25rem 2.1875rem 1.25rem;
+}
